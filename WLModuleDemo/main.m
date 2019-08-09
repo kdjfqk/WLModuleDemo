@@ -2,8 +2,8 @@
 //  main.m
 //  WLModuleDemo
 //
-//  Created by wling on 2019/8/9.
-//  Copyright © 2019 wling. All rights reserved.
+//  Created by iOS on 2019/8/9.
+//  Copyright © 2019 iOS. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

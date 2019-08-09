@@ -13,6 +13,27 @@
 		B19B7E9222FD0C38008640FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B19B7E9122FD0C38008640FC /* Assets.xcassets */; };
 		B19B7E9522FD0C38008640FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B19B7E9322FD0C38008640FC /* LaunchScreen.storyboard */; };
 		B19B7E9822FD0C38008640FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B19B7E9722FD0C38008640FC /* main.m */; };
+		B19B7EDC22FD0C97008640FC /* BHServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B19B7EA022FD0C97008640FC /* BHServiceManager.m */; };
+		B19B7EDD22FD0C97008640FC /* BeeHive.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B19B7EA222FD0C97008640FC /* BeeHive.bundle */; };
+		B19B7EDE22FD0C97008640FC /* BHAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = B19B7EA422FD0C97008640FC /* BHAnnotation.m */; };
+		B19B7EDF22FD0C97008640FC /* BHWatchDog.m in Sources */ = {isa = PBXBuildFile; fileRef = B19B7EA722FD0C97008640FC /* BHWatchDog.m */; };
+		B19B7EE022FD0C97008640FC /* BeeHive.m in Sources */ = {isa = PBXBuildFile; fileRef = B19B7EA822FD0C97008640FC /* BeeHive.m */; };
+		B19B7EE122FD0C97008640FC /* BHModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B19B7EAA22FD0C97008640FC /* BHModuleManager.m */; };
+		B19B7EE222FD0C97008640FC /* BHConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = B19B7EAB22FD0C97008640FC /* BHConfig.m */; };
+		B19B7EE322FD0C97008640FC /* BHRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = B19B7EAD22FD0C97008640FC /* BHRouter.m */; };
+		B19B7EE422FD0C97008640FC /* BHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B19B7EAF22FD0C97008640FC /* BHAppDelegate.m */; };
+		B19B7EE522FD0C97008640FC /* BHTimeProfiler.m in Sources */ = {isa = PBXBuildFile; fileRef = B19B7EB222FD0C97008640FC /* BHTimeProfiler.m */; };
+		B19B7EE622FD0C97008640FC /* BHContext.m in Sources */ = {isa = PBXBuildFile; fileRef = B19B7EB522FD0C97008640FC /* BHContext.m */; };
+		B19B7EE722FD0C97008640FC /* A_Module.m in Sources */ = {isa = PBXBuildFile; fileRef = B19B7EC022FD0C97008640FC /* A_Module.m */; };
+		B19B7EE822FD0C97008640FC /* BHAHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B19B7EC122FD0C97008640FC /* BHAHomeViewController.m */; };
+		B19B7EE922FD0C97008640FC /* A_Service.m in Sources */ = {isa = PBXBuildFile; fileRef = B19B7EC422FD0C97008640FC /* A_Service.m */; };
+		B19B7EEA22FD0C97008640FC /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = B19B7EC822FD0C97008640FC /* CTMediator.m */; };
+		B19B7EEB22FD0C97008640FC /* CTMediator+A.m in Sources */ = {isa = PBXBuildFile; fileRef = B19B7ECC22FD0C97008640FC /* CTMediator+A.m */; };
+		B19B7EEC22FD0C97008640FC /* CTMAHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B19B7ECE22FD0C97008640FC /* CTMAHomeViewController.m */; };
+		B19B7EED22FD0C97008640FC /* Target_A.m in Sources */ = {isa = PBXBuildFile; fileRef = B19B7ED122FD0C97008640FC /* Target_A.m */; };
+		B19B7EEE22FD0C97008640FC /* MGJRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = B19B7ED622FD0C97008640FC /* MGJRouter.m */; };
+		B19B7EEF22FD0C97008640FC /* MGJAHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B19B7EDA22FD0C97008640FC /* MGJAHomeViewController.m */; };
+		B19B7EF022FD0C97008640FC /* A_Entry.m in Sources */ = {isa = PBXBuildFile; fileRef = B19B7EDB22FD0C97008640FC /* A_Entry.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +47,54 @@
 		B19B7E9422FD0C38008640FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B19B7E9622FD0C38008640FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B19B7E9722FD0C38008640FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B19B7EA022FD0C97008640FC /* BHServiceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHServiceManager.m; sourceTree = "<group>"; };
+		B19B7EA122FD0C97008640FC /* BHRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHRouter.h; sourceTree = "<group>"; };
+		B19B7EA222FD0C97008640FC /* BeeHive.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BeeHive.bundle; sourceTree = "<group>"; };
+		B19B7EA322FD0C97008640FC /* BHTimeProfiler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHTimeProfiler.h; sourceTree = "<group>"; };
+		B19B7EA422FD0C97008640FC /* BHAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHAnnotation.m; sourceTree = "<group>"; };
+		B19B7EA522FD0C97008640FC /* BHAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHAppDelegate.h; sourceTree = "<group>"; };
+		B19B7EA622FD0C97008640FC /* BHContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHContext.h; sourceTree = "<group>"; };
+		B19B7EA722FD0C97008640FC /* BHWatchDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHWatchDog.m; sourceTree = "<group>"; };
+		B19B7EA822FD0C97008640FC /* BeeHive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeeHive.m; sourceTree = "<group>"; };
+		B19B7EA922FD0C97008640FC /* BHCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHCommon.h; sourceTree = "<group>"; };
+		B19B7EAA22FD0C97008640FC /* BHModuleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHModuleManager.m; sourceTree = "<group>"; };
+		B19B7EAB22FD0C97008640FC /* BHConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHConfig.m; sourceTree = "<group>"; };
+		B19B7EAC22FD0C97008640FC /* BHDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHDefines.h; sourceTree = "<group>"; };
+		B19B7EAD22FD0C97008640FC /* BHRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHRouter.m; sourceTree = "<group>"; };
+		B19B7EAE22FD0C97008640FC /* BHServiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHServiceManager.h; sourceTree = "<group>"; };
+		B19B7EAF22FD0C97008640FC /* BHAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHAppDelegate.m; sourceTree = "<group>"; };
+		B19B7EB022FD0C97008640FC /* BHModuleProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHModuleProtocol.h; sourceTree = "<group>"; };
+		B19B7EB122FD0C97008640FC /* BHAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHAnnotation.h; sourceTree = "<group>"; };
+		B19B7EB222FD0C97008640FC /* BHTimeProfiler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHTimeProfiler.m; sourceTree = "<group>"; };
+		B19B7EB322FD0C97008640FC /* BeeHive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeeHive.h; sourceTree = "<group>"; };
+		B19B7EB422FD0C97008640FC /* BHWatchDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHWatchDog.h; sourceTree = "<group>"; };
+		B19B7EB522FD0C97008640FC /* BHContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHContext.m; sourceTree = "<group>"; };
+		B19B7EB622FD0C97008640FC /* BHServiceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHServiceProtocol.h; sourceTree = "<group>"; };
+		B19B7EB722FD0C97008640FC /* BeeHive-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BeeHive-Prefix.pch"; sourceTree = "<group>"; };
+		B19B7EB822FD0C97008640FC /* BHModuleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHModuleManager.h; sourceTree = "<group>"; };
+		B19B7EB922FD0C97008640FC /* BHConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHConfig.h; sourceTree = "<group>"; };
+		B19B7EBB22FD0C97008640FC /* Service_A_Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Service_A_Protocol.h; sourceTree = "<group>"; };
+		B19B7EBC22FD0C97008640FC /* BeeHiveServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeeHiveServices.h; sourceTree = "<group>"; };
+		B19B7EBF22FD0C97008640FC /* A_Module.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = A_Module.h; sourceTree = "<group>"; };
+		B19B7EC022FD0C97008640FC /* A_Module.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = A_Module.m; sourceTree = "<group>"; };
+		B19B7EC122FD0C97008640FC /* BHAHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHAHomeViewController.m; sourceTree = "<group>"; };
+		B19B7EC322FD0C97008640FC /* A_Service.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = A_Service.h; sourceTree = "<group>"; };
+		B19B7EC422FD0C97008640FC /* A_Service.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = A_Service.m; sourceTree = "<group>"; };
+		B19B7EC522FD0C97008640FC /* BHAHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHAHomeViewController.h; sourceTree = "<group>"; };
+		B19B7EC822FD0C97008640FC /* CTMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTMediator.m; sourceTree = "<group>"; };
+		B19B7EC922FD0C97008640FC /* CTMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTMediator.h; sourceTree = "<group>"; };
+		B19B7ECB22FD0C97008640FC /* CTMediator+A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTMediator+A.h"; sourceTree = "<group>"; };
+		B19B7ECC22FD0C97008640FC /* CTMediator+A.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+A.m"; sourceTree = "<group>"; };
+		B19B7ECE22FD0C97008640FC /* CTMAHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTMAHomeViewController.m; sourceTree = "<group>"; };
+		B19B7ECF22FD0C97008640FC /* CTMAHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTMAHomeViewController.h; sourceTree = "<group>"; };
+		B19B7ED122FD0C97008640FC /* Target_A.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_A.m; sourceTree = "<group>"; };
+		B19B7ED222FD0C97008640FC /* Target_A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_A.h; sourceTree = "<group>"; };
+		B19B7ED522FD0C97008640FC /* MGJRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGJRouter.h; sourceTree = "<group>"; };
+		B19B7ED622FD0C97008640FC /* MGJRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGJRouter.m; sourceTree = "<group>"; };
+		B19B7ED822FD0C97008640FC /* MGJAHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGJAHomeViewController.h; sourceTree = "<group>"; };
+		B19B7ED922FD0C97008640FC /* A_Entry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = A_Entry.h; sourceTree = "<group>"; };
+		B19B7EDA22FD0C97008640FC /* MGJAHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGJAHomeViewController.m; sourceTree = "<group>"; };
+		B19B7EDB22FD0C97008640FC /* A_Entry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = A_Entry.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +127,9 @@
 		B19B7E8722FD0C37008640FC /* WLModuleDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B19B7E9E22FD0C97008640FC /* BeeHive */,
+				B19B7EC622FD0C97008640FC /* CTMediator */,
+				B19B7ED322FD0C97008640FC /* MGJRouter */,
 				B19B7E8822FD0C37008640FC /* AppDelegate.h */,
 				B19B7E8922FD0C37008640FC /* AppDelegate.m */,
 				B19B7E8B22FD0C37008640FC /* ViewController.h */,
@@ -69,6 +141,163 @@
 				B19B7E9722FD0C38008640FC /* main.m */,
 			);
 			path = WLModuleDemo;
+			sourceTree = "<group>";
+		};
+		B19B7E9E22FD0C97008640FC /* BeeHive */ = {
+			isa = PBXGroup;
+			children = (
+				B19B7E9F22FD0C97008640FC /* BeeHive（框架核心代码，被组件依赖） */,
+				B19B7EBA22FD0C97008640FC /* Services（定义各个模块的对外暴露接口的Protocol，被组件依赖） */,
+				B19B7EBD22FD0C97008640FC /* Module_A */,
+			);
+			path = BeeHive;
+			sourceTree = "<group>";
+		};
+		B19B7E9F22FD0C97008640FC /* BeeHive（框架核心代码，被组件依赖） */ = {
+			isa = PBXGroup;
+			children = (
+				B19B7EA022FD0C97008640FC /* BHServiceManager.m */,
+				B19B7EA122FD0C97008640FC /* BHRouter.h */,
+				B19B7EA222FD0C97008640FC /* BeeHive.bundle */,
+				B19B7EA322FD0C97008640FC /* BHTimeProfiler.h */,
+				B19B7EA422FD0C97008640FC /* BHAnnotation.m */,
+				B19B7EA522FD0C97008640FC /* BHAppDelegate.h */,
+				B19B7EA622FD0C97008640FC /* BHContext.h */,
+				B19B7EA722FD0C97008640FC /* BHWatchDog.m */,
+				B19B7EA822FD0C97008640FC /* BeeHive.m */,
+				B19B7EA922FD0C97008640FC /* BHCommon.h */,
+				B19B7EAA22FD0C97008640FC /* BHModuleManager.m */,
+				B19B7EAB22FD0C97008640FC /* BHConfig.m */,
+				B19B7EAC22FD0C97008640FC /* BHDefines.h */,
+				B19B7EAD22FD0C97008640FC /* BHRouter.m */,
+				B19B7EAE22FD0C97008640FC /* BHServiceManager.h */,
+				B19B7EAF22FD0C97008640FC /* BHAppDelegate.m */,
+				B19B7EB022FD0C97008640FC /* BHModuleProtocol.h */,
+				B19B7EB122FD0C97008640FC /* BHAnnotation.h */,
+				B19B7EB222FD0C97008640FC /* BHTimeProfiler.m */,
+				B19B7EB322FD0C97008640FC /* BeeHive.h */,
+				B19B7EB422FD0C97008640FC /* BHWatchDog.h */,
+				B19B7EB522FD0C97008640FC /* BHContext.m */,
+				B19B7EB622FD0C97008640FC /* BHServiceProtocol.h */,
+				B19B7EB722FD0C97008640FC /* BeeHive-Prefix.pch */,
+				B19B7EB822FD0C97008640FC /* BHModuleManager.h */,
+				B19B7EB922FD0C97008640FC /* BHConfig.h */,
+			);
+			path = "BeeHive（框架核心代码，被组件依赖）";
+			sourceTree = "<group>";
+		};
+		B19B7EBA22FD0C97008640FC /* Services（定义各个模块的对外暴露接口的Protocol，被组件依赖） */ = {
+			isa = PBXGroup;
+			children = (
+				B19B7EBB22FD0C97008640FC /* Service_A_Protocol.h */,
+				B19B7EBC22FD0C97008640FC /* BeeHiveServices.h */,
+			);
+			path = "Services（定义各个模块的对外暴露接口的Protocol，被组件依赖）";
+			sourceTree = "<group>";
+		};
+		B19B7EBD22FD0C97008640FC /* Module_A */ = {
+			isa = PBXGroup;
+			children = (
+				B19B7EBE22FD0C97008640FC /* A_Module（模块A的接收事件的类） */,
+				B19B7EC122FD0C97008640FC /* BHAHomeViewController.m */,
+				B19B7EC222FD0C97008640FC /* A_Service（模块A的包装层） */,
+				B19B7EC522FD0C97008640FC /* BHAHomeViewController.h */,
+			);
+			path = Module_A;
+			sourceTree = "<group>";
+		};
+		B19B7EBE22FD0C97008640FC /* A_Module（模块A的接收事件的类） */ = {
+			isa = PBXGroup;
+			children = (
+				B19B7EBF22FD0C97008640FC /* A_Module.h */,
+				B19B7EC022FD0C97008640FC /* A_Module.m */,
+			);
+			path = "A_Module（模块A的接收事件的类）";
+			sourceTree = "<group>";
+		};
+		B19B7EC222FD0C97008640FC /* A_Service（模块A的包装层） */ = {
+			isa = PBXGroup;
+			children = (
+				B19B7EC322FD0C97008640FC /* A_Service.h */,
+				B19B7EC422FD0C97008640FC /* A_Service.m */,
+			);
+			path = "A_Service（模块A的包装层）";
+			sourceTree = "<group>";
+		};
+		B19B7EC622FD0C97008640FC /* CTMediator */ = {
+			isa = PBXGroup;
+			children = (
+				B19B7EC722FD0C97008640FC /* CTMediator（框架核心代码，被组件依赖） */,
+				B19B7ECA22FD0C97008640FC /* Categories（定义各个模块的对外暴露接口的分类，被组件依赖） */,
+				B19B7ECD22FD0C97008640FC /* Module_A */,
+			);
+			path = CTMediator;
+			sourceTree = "<group>";
+		};
+		B19B7EC722FD0C97008640FC /* CTMediator（框架核心代码，被组件依赖） */ = {
+			isa = PBXGroup;
+			children = (
+				B19B7EC822FD0C97008640FC /* CTMediator.m */,
+				B19B7EC922FD0C97008640FC /* CTMediator.h */,
+			);
+			path = "CTMediator（框架核心代码，被组件依赖）";
+			sourceTree = "<group>";
+		};
+		B19B7ECA22FD0C97008640FC /* Categories（定义各个模块的对外暴露接口的分类，被组件依赖） */ = {
+			isa = PBXGroup;
+			children = (
+				B19B7ECB22FD0C97008640FC /* CTMediator+A.h */,
+				B19B7ECC22FD0C97008640FC /* CTMediator+A.m */,
+			);
+			path = "Categories（定义各个模块的对外暴露接口的分类，被组件依赖）";
+			sourceTree = "<group>";
+		};
+		B19B7ECD22FD0C97008640FC /* Module_A */ = {
+			isa = PBXGroup;
+			children = (
+				B19B7ECE22FD0C97008640FC /* CTMAHomeViewController.m */,
+				B19B7ECF22FD0C97008640FC /* CTMAHomeViewController.h */,
+				B19B7ED022FD0C97008640FC /* Target_A（模块A的包装层） */,
+			);
+			path = Module_A;
+			sourceTree = "<group>";
+		};
+		B19B7ED022FD0C97008640FC /* Target_A（模块A的包装层） */ = {
+			isa = PBXGroup;
+			children = (
+				B19B7ED122FD0C97008640FC /* Target_A.m */,
+				B19B7ED222FD0C97008640FC /* Target_A.h */,
+			);
+			path = "Target_A（模块A的包装层）";
+			sourceTree = "<group>";
+		};
+		B19B7ED322FD0C97008640FC /* MGJRouter */ = {
+			isa = PBXGroup;
+			children = (
+				B19B7ED422FD0C97008640FC /* MGJRouter（框架核心代码，被组件依赖） */,
+				B19B7ED722FD0C97008640FC /* Module_A */,
+			);
+			path = MGJRouter;
+			sourceTree = "<group>";
+		};
+		B19B7ED422FD0C97008640FC /* MGJRouter（框架核心代码，被组件依赖） */ = {
+			isa = PBXGroup;
+			children = (
+				B19B7ED522FD0C97008640FC /* MGJRouter.h */,
+				B19B7ED622FD0C97008640FC /* MGJRouter.m */,
+			);
+			path = "MGJRouter（框架核心代码，被组件依赖）";
+			sourceTree = "<group>";
+		};
+		B19B7ED722FD0C97008640FC /* Module_A */ = {
+			isa = PBXGroup;
+			children = (
+				B19B7ED822FD0C97008640FC /* MGJAHomeViewController.h */,
+				B19B7EDA22FD0C97008640FC /* MGJAHomeViewController.m */,
+				B19B7ED922FD0C97008640FC /* A_Entry.h */,
+				B19B7EDB22FD0C97008640FC /* A_Entry.m */,
+			);
+			path = Module_A;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +359,7 @@
 			files = (
 				B19B7E9522FD0C38008640FC /* LaunchScreen.storyboard in Resources */,
 				B19B7E9222FD0C38008640FC /* Assets.xcassets in Resources */,
+				B19B7EDD22FD0C97008640FC /* BeeHive.bundle in Resources */,
 				B19B7E9022FD0C37008640FC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,9 +371,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B19B7EEE22FD0C97008640FC /* MGJRouter.m in Sources */,
+				B19B7EF022FD0C97008640FC /* A_Entry.m in Sources */,
+				B19B7EE622FD0C97008640FC /* BHContext.m in Sources */,
 				B19B7E8D22FD0C37008640FC /* ViewController.m in Sources */,
+				B19B7EDE22FD0C97008640FC /* BHAnnotation.m in Sources */,
+				B19B7EDF22FD0C97008640FC /* BHWatchDog.m in Sources */,
+				B19B7EE522FD0C97008640FC /* BHTimeProfiler.m in Sources */,
 				B19B7E9822FD0C38008640FC /* main.m in Sources */,
 				B19B7E8A22FD0C37008640FC /* AppDelegate.m in Sources */,
+				B19B7EE922FD0C97008640FC /* A_Service.m in Sources */,
+				B19B7EE222FD0C97008640FC /* BHConfig.m in Sources */,
+				B19B7EDC22FD0C97008640FC /* BHServiceManager.m in Sources */,
+				B19B7EE722FD0C97008640FC /* A_Module.m in Sources */,
+				B19B7EEF22FD0C97008640FC /* MGJAHomeViewController.m in Sources */,
+				B19B7EEB22FD0C97008640FC /* CTMediator+A.m in Sources */,
+				B19B7EED22FD0C97008640FC /* Target_A.m in Sources */,
+				B19B7EEA22FD0C97008640FC /* CTMediator.m in Sources */,
+				B19B7EE022FD0C97008640FC /* BeeHive.m in Sources */,
+				B19B7EE322FD0C97008640FC /* BHRouter.m in Sources */,
+				B19B7EE422FD0C97008640FC /* BHAppDelegate.m in Sources */,
+				B19B7EEC22FD0C97008640FC /* CTMAHomeViewController.m in Sources */,
+				B19B7EE122FD0C97008640FC /* BHModuleManager.m in Sources */,
+				B19B7EE822FD0C97008640FC /* BHAHomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +536,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T9A73DY5KV;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = WLModuleDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -303,7 +553,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T9A73DY5KV;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = WLModuleDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

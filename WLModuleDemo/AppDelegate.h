@@ -2,13 +2,14 @@
 //  AppDelegate.h
 //  WLModuleDemo
 //
-//  Created by wling on 2019/8/9.
-//  Copyright © 2019 wling. All rights reserved.
+//  Created by iOS on 2019/6/28.
+//  Copyright © 2019 iOS. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
+#import "BeeHive.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : BHAppDelegate <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

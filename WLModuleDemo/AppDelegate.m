@@ -2,8 +2,8 @@
 //  AppDelegate.m
 //  WLModuleDemo
 //
-//  Created by wling on 2019/8/9.
-//  Copyright © 2019 wling. All rights reserved.
+//  Created by iOS on 2019/6/28.
+//  Copyright © 2019 iOS. All rights reserved.
 //
 
 #import "AppDelegate.h"
@@ -17,6 +17,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [BHContext shareInstance].application = application;
+    [BHContext shareInstance].launchOptions = launchOptions;
+    [[BeeHive shareInstance] setContext:[BHContext shareInstance]];
+    [super application:application didFinishLaunchingWithOptions:launchOptions];
+    
     return YES;
 }
 
